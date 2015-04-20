@@ -1,5 +1,40 @@
 #widetrail {
-    height: 275px;
-    width: 100%;
-    font-size: 170px; 
+    width: 95%;
+    height: 220px;
+    font-size: 170px;
+    text-align: center;
+    font-family: brody;
+    color: #ff5f00;
+    border: solid; 
+    border-color: #0021A5; 
+    margin-left: 40px;
+    margin-right: 40px; 
+    
+}
+nav {
+    width: 1425px;
+    height: 345px; 
+    margin-top: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    font-size: 30px;
+    display: inline-flex; 
+  
+        
+}
+nav a {
+    height: 200px;
+    width: 455px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: 140px;
+    text-decoration: none;
+    text-align: center;  
+    font-family: Bookman Old Style;
+    border: solid;
+    border-color: #0021A5; 
+}
+nav a:hover{
+    background-color: #ff5f00;
+    
 }
