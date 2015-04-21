@@ -34,7 +34,33 @@ nav a {
     border: solid;
     border-color: #0021A5; 
 }
+img {
+    margin: 5px; 
+}
 nav a:hover{
     background-color: #ff5f00;
     
+}
+.wrapper2 {
+    width: 1100px; 
+    height: 475px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25%; 
+    
+}
+section {  
+    width: 545px; 
+    height: 155px; 
+    margin-left: px;
+    padding-left: 10%;
+    
+                
+}
+.trail-summary p {
+    width: 450px; 
+    line-height: 32px;
+   
 }
