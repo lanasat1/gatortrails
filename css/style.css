@@ -28,41 +28,43 @@ body {
 nav {
     width: 80%;
     margin-left: 10%;
-    margin-top: 60px;
+    margin-top: 10px;
     display: inline-flex; 
   
         
 }
 nav a {
     width: 100%;
-    font-size: 85%; 
+    font-size: 26px; 
+    font-weight: bold;
+    color: aliceblue;
     line-height: 1000%;
     text-decoration: none;
     text-align: center;  
-    margin: 1px; 
+    margin: 10px; 
     font-family: Bookman Old style;
-    border: solid;
-    border-color: #0021A5; 
+     
+}
+nav a:hover{
+    opacity: .9;
+    filter: alpha(opacity=90);
+
 }
 img {
     margin-top: 30px; 
 }
-nav a:hover{
-    background-color: #ff5f00;
-    
-}
+
 .wrapper2 {
     width: 100%; 
     height: 100%;
     display: inline-block;
     margin-top: 45px;
      
-     
-     
-    
-}
+  }
+
 h2 {
-   text-align: center; 
+   width: 30% ; 
+    margin-left: 6%;
     
 }
 section {  
@@ -73,6 +75,7 @@ section {
     
                 
 }
+
 .wrappertrail {
     width: 40%; 
     margin-left:30%;
