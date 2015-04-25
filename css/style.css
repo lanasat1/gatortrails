@@ -1,9 +1,19 @@
 html { background-color: cornflowerblue; }
 
+body { 
+    margin: 0 auto;
+    padding: 2em 2em 4em;
+    max-width: 800px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 3.9em;
+    background-color: #ffffff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+} 
 
 #widetrail {
     width: 100%;
-    font-size: 80px;
+    font-size: 400%;
     font-family: brody; 
     text-align: center;
     text-color:  #ff5f00; 
@@ -16,8 +26,8 @@ html { background-color: cornflowerblue; }
 }
 
 nav {
-    width: 70%;
-    height: 70%; 
+    width: 80%;
+    margin-left: 10%;
     margin-top: 60px;
     display: inline-flex; 
   
@@ -25,11 +35,11 @@ nav {
 }
 nav a {
     width: 100%;
-    font-size: 80%; 
+    font-size: 85%; 
     line-height: 1000%;
     text-decoration: none;
     text-align: center;  
-    margin: 1%; 
+    margin: 1px; 
     font-family: Bookman Old style;
     border: solid;
     border-color: #0021A5; 
@@ -64,31 +74,22 @@ section {
                 
 }
 .wrappertrail {
-    margin-left: 15%;
-    height: 75%; 
-    width: 70%;
-    margin-top: 25px;
-
-}
+    width: 40%; 
+    margin-left:30%;
+    }
 .wrappertrail a{
-    display: inline-block; 
-    width: 40%;
-    height: 55px; 
-    margin: 10px; 
-    align-items: center; 
-    padding-left: 40px; 
+    display: inline-flex; 
+    width: 60%; 
+    margin-left: 20%;
+    margin-top: 5%;
+    align-content: center; 
+    font-size: 100%; 
     text-decoration: none;
     font-family: bookman old style; 
     border: solid; 
     
 }
-body { 
-    width: 60%;
-    height: 100%;
-    margin-left: 20%; 
-    background-color: white;
-    text-align:center;
-} 
+
 #mainContainer { 
 margin:0 auto; 
 }
@@ -105,6 +106,16 @@ margin:0 auto;
     
    
 }
+
 img {
-    text-decoration: bold; 
+    text-decoration: bold;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+}
+footer {
+    width:100%;
+    margin-bottom: -10%;
+    line-height: 90%; 
+
 }
